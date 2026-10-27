@@ -1,0 +1,47 @@
+# Dependências (Nunca envie a pasta node_modules)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Logs e relatórios de erro
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Arquivos de Build, Dist e Saída (Pastas geradas pelo build)
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Arquivos de ambiente e segredos (NUNCA envie senhas ou chaves de API!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.json
+
+# Ferramentas de teste e cobertura de código
+coverage/
+.nyc_output/
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configurações de IDEs e Editores (Opcional, mas recomendado)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
